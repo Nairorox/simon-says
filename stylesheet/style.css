@@ -1,0 +1,105 @@
+#mainscreen{
+	height:600px;
+	width:800px;
+	margin-top: 50px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+	
+	#circle{
+	height: 600px;
+	width:600px;
+	position: relative;
+	margin: 0 auto;
+	background-color: gray;
+	border-radius: 50%;
+	}
+	
+.quarter{
+	background-color:black;
+	height:50%;
+	width:50%;
+	position:absolute;
+	border:solid 1px;
+	box-shadow: 2px 2px 12px black;
+	}
+
+	.quarter:hover{
+	box-shadow: 4px 4px 48px black;
+	}
+	
+	.quarter:active{
+		
+			transform: scale(0.95)
+	}
+.q1{
+	border-radius: 100% 0 0 0;
+	background-color:  #cc0000;
+	top:0;
+	left:0;
+}
+
+
+.q1:hover{
+	background-color:red;
+}
+
+
+.q2{
+	border-radius: 0 100% 0 0;
+	background-color: #004d00;
+	top:0;
+	right:0;
+}
+
+.q2:hover{
+	background-color:green;
+}
+
+
+
+.q3{
+	border-radius: 0 0 0 100%;
+	background-color: #0000cc;
+	bottom:0;
+	left:0;
+}
+
+.q3:hover{
+	background-color:blue;
+}
+
+
+.q4{
+	border-radius: 0 0 100% 0;
+	background-color: #cccc00;
+	bottom:0;
+	right:0;
+}
+
+.q4:hover{
+	background-color:yellow;
+}
+
+
+.menu{
+	position:absolute;
+	height:300px;
+	width:300px;
+	border-radius:50%;
+	background-color:white;
+	left:150px;
+	top:150px;
+	box-sizing:border-box;
+	text-align:center;
+	padding: 40px 40px 10px;
+	border:solid 1px;
+	box-shadow: 1px 1px 8px;
+}
+.menu > h2 {
+	margin-top:0px;
+}
+.menu > button{
+width:100px;
+padding:10px;
+}
